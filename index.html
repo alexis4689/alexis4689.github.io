@@ -6,29 +6,135 @@
     <meta name="description" content="This is a test page while I am learning how to code.">
     <meta property="og:image" content="https://rlv.zcache.com/element_030_zn_zinc_full_postcard-r2ce672c3e1de457fa8a9ec65ad122200_vgbaq_8byvr_540.jpg">
         <meta property="og:description" content="This is an example page to demonstrate usage of metadata on web pages.">
+    <meta charset="utf-8">
+    <title>AZ</title>
+    <style>
+      html {
+        font-family: 'helvetica neue', helvetica, arial;
+      }
+      body {
+        margin: 0;
+      }
+      header {
+        background: blue;
+        height: 100px;
+      }
+      h1 {
+        text-align: center;
+        color: white;
+        line-height: 100px;
+        margin: 0;
+      }
+      article {
+        padding: 10px;
+        margin: 10px;
+        background: aqua;
+      }
+   
+      section {
+        display: flex;
+      }
+      article {
+        flex: 1 200px;
+      }
+      article:nth-of-type(3) {
+        flex: 3 200px;
+        display: flex;
+        flex-flow: column;
+      }
+      article:nth-of-type(3) div:first-child {
+        flex: 1 100px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-around;
+      }
+      button {
+        flex: 1 auto;
+        margin: 5px;
+        font-size: 18px;
+        line-height: 1.5;
+      }
+      section {
+        display: flex;
+      }
+      article {
+        flex: 1 200px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>flexy cube</h1>
+    </header>
 
-    <body>
-<img src="https://rlv.zcache.com/element_030_zn_zinc_full_postcard-r2ce672c3e1de457fa8a9ec65ad122200_vgbaq_8byvr_540.jpg" alt="" usemap="#Map" />
-<map name="Map" id="Map">
-    <area alt="" title="" href="#" shape="poly" coords="155,86,389,89,400,304,172,295" />
-</map>
-<div class="media">
-  <div class="image"><img src="https://rlv.zcache.com/element_030_zn_zinc_full_postcard-r2ce672c3e1de457fa8a9ec65ad122200_vgbaq_8byvr_540.jpg" alt="zinc"></div>
-    <div class="content">flexbox test</div>
-</div>
-         
-   .media {
-    display: flex;
-    align-items: flex-start;
-}
-.media .content {
-    flex: 1;
-    padding: 10px;
-}
-        
+    <section>
+      <article>
+        <h2>hello</h2>
+
+        <p>a b c d e f g hello hi internet i am az similar to the element but not quite the same.</p>
+      </article>
+
+      <article>
+        <h2>this is another box</h2>
+
+        <p>more text goes here</p>
+      </article>
+
+      <article>
+        <div>
+          <button>button one</button>
+          <button>button two</button>
+          <button>three</button>
+          <button>four</button>
+          <button>five</button>
+        </div>
+        <div>
+          <p>more super important text.</p>
+        </div>
+        <div>
+          <p>and why not more</p>
+        </div>
+      </article>
+       <article>
+        <h2>this is another box</h2>
+
+        <p>more text goes here</p>
+      </article>
+    </section>
+      <section>
+       <article>
+        <h2>this is another box</h2>
+
+        <p><div class="image"><img src="https://rlv.zcache.com/element_030_zn_zinc_full_postcard-r2ce672c3e1de457fa8a9ec65ad122200_vgbaq_8byvr_540.jpg" alt="zinc"></div></p>
+      </article>
+    </section>
+    <section>
+      <article>
+        <h2>this is another box</h2>
+
+        <p>more text goes here</p>
+      </article>
+     
+  </body>
+</html>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    <body>      
     
          
-         <style>
+  <style>
 
 .chart div {
   font: 10px sans-serif;
